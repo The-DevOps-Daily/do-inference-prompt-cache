@@ -1,0 +1,1133 @@
+{
+  "stamps": [
+    "dc0f0f363a39",
+    "23e1a2f92b4a",
+    "87b41f078134",
+    "d55d9d457f2b",
+    "508492e94842",
+    "dd8b65c3f04b"
+  ],
+  "models": {
+    "llama-4-maverick": {
+      "requests": 289,
+      "failed": 0,
+      "refusals": 55,
+      "refusalStatuses": [
+        529
+      ],
+      "servedModels": [
+        "llama-4-maverick"
+      ],
+      "tokens": {
+        "prompt": 2818685,
+        "cached": 1680256,
+        "completion": 3205
+      },
+      "stable": {
+        "n": 20,
+        "firstCached": 0,
+        "laterHitRate": 0.9974435041765213,
+        "laterHits": 19,
+        "laterMisses": 0,
+        "laterN": 19,
+        "medianPrompt": 7696.5,
+        "ttftMiss": 841,
+        "ttftHit": 836,
+        "inputCostPaid": 0.009316,
+        "inputCostWithoutCache": 0.03849999999999999,
+        "inputPerThousandLater": 0.388921052631579,
+        "inputPerThousandWithoutCache": 1.9249210526315788
+      },
+      "timestamp-first": {
+        "n": 20,
+        "firstCached": 0,
+        "laterHitRate": 0,
+        "laterHits": 0,
+        "laterMisses": 19,
+        "laterN": 19,
+        "medianPrompt": 7714.5,
+        "ttftMiss": 1033,
+        "ttftHit": null,
+        "inputCostPaid": 0.03859,
+        "inputCostWithoutCache": 0.03859,
+        "inputPerThousandLater": 1.929421052631579,
+        "inputPerThousandWithoutCache": 1.929421052631579
+      },
+      "timestamp-last": {
+        "n": 20,
+        "firstCached": 0,
+        "laterHitRate": 0.9948593479416938,
+        "laterHits": 19,
+        "laterMisses": 0,
+        "laterN": 19,
+        "medianPrompt": 7716.5,
+        "ttftMiss": 1105,
+        "ttftHit": 915,
+        "inputCostPaid": 0.009416,
+        "inputCostWithoutCache": 0.0386,
+        "inputPerThousandLater": 0.39392105263157895,
+        "inputPerThousandWithoutCache": 1.929921052631579
+      },
+      "user-in-middle": {
+        "n": 20,
+        "firstCached": 0,
+        "laterHitRate": 0.27410397754052335,
+        "laterHits": 0,
+        "laterMisses": 0,
+        "laterN": 19,
+        "medianPrompt": 7702.5,
+        "ttftMiss": 1457,
+        "ttftHit": null,
+        "inputCostPaid": 0.0305014,
+        "inputCostWithoutCache": 0.038527,
+        "inputPerThousandLater": 1.5038763157894737,
+        "inputPerThousandWithoutCache": 1.9262763157894736
+      },
+      "burst": {
+        "cold-1": {
+          "n": 10,
+          "withHit": 9,
+          "medianTtft": 1042.5
+        },
+        "cold-2": {
+          "n": 10,
+          "withHit": 10,
+          "medianTtft": 1161
+        },
+        "warm-0": {
+          "n": 1,
+          "withHit": 0,
+          "medianTtft": 1015
+        },
+        "warm-1": {
+          "n": 10,
+          "withHit": 10,
+          "medianTtft": 984
+        }
+      },
+      "idle": {
+        "primes": [
+          {
+            "label": "prime",
+            "gapMin": 1,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 5,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 15,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 30,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 60,
+            "hit": false
+          }
+        ],
+        "after": {
+          "1m": {
+            "hit": true,
+            "cached": 7616,
+            "prompt": 7706,
+            "ttft": 964
+          },
+          "5m": {
+            "hit": true,
+            "cached": 7680,
+            "prompt": 7708,
+            "ttft": 991
+          },
+          "15m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 7709,
+            "ttft": 1113
+          },
+          "30m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 7709,
+            "ttft": 1950
+          },
+          "60m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 7709,
+            "ttft": 1048
+          }
+        }
+      },
+      "idle-twice": {
+        "primes": [
+          {
+            "label": "prime",
+            "gapMin": 1,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 1,
+            "hit": true
+          },
+          {
+            "label": "prime",
+            "gapMin": 5,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 5,
+            "hit": true
+          },
+          {
+            "label": "prime",
+            "gapMin": 15,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 15,
+            "hit": true
+          },
+          {
+            "label": "prime",
+            "gapMin": 30,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 30,
+            "hit": true
+          }
+        ],
+        "after": {
+          "1m": {
+            "hit": true,
+            "cached": 7680,
+            "prompt": 7709,
+            "ttft": 4682
+          },
+          "5m": {
+            "hit": true,
+            "cached": 7616,
+            "prompt": 7707,
+            "ttft": 1530
+          },
+          "15m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 7707,
+            "ttft": 1377
+          },
+          "30m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 7707,
+            "ttft": 1319
+          }
+        }
+      },
+      "idle-short": {
+        "5s": {
+          "hits": 2,
+          "of": 2,
+          "secondPrimeHits": 2
+        },
+        "15s": {
+          "hits": 2,
+          "of": 2,
+          "secondPrimeHits": 2
+        },
+        "30s": {
+          "hits": 2,
+          "of": 2,
+          "secondPrimeHits": 2
+        },
+        "45s": {
+          "hits": 2,
+          "of": 2,
+          "secondPrimeHits": 2
+        }
+      },
+      "cache-key": {
+        "a-1": {
+          "hits": 0,
+          "misses": 4,
+          "of": 4
+        },
+        "a-2": {
+          "hits": 4,
+          "misses": 0,
+          "of": 4
+        },
+        "b-1": {
+          "hits": 0,
+          "misses": 4,
+          "of": 4
+        },
+        "a-3": {
+          "hits": 4,
+          "misses": 0,
+          "of": 4
+        },
+        "none": {
+          "hits": 0,
+          "misses": 4,
+          "of": 4
+        },
+        "b-2": {
+          "hits": 4,
+          "misses": 0,
+          "of": 4
+        }
+      },
+      "key-ab": {
+        "keyed": {
+          "secondRequestHits": 4,
+          "rounds": 4,
+          "laterHits": 28,
+          "laterN": 28,
+          "laterHitRate": 0.9943200801871033
+        },
+        "plain": {
+          "secondRequestHits": 4,
+          "rounds": 4,
+          "laterHits": 28,
+          "laterN": 28,
+          "laterHitRate": 0.9931966475158018
+        }
+      },
+      "sweep": {
+        "1k": {
+          "prompt": 798,
+          "firstCached": 0,
+          "ttftMiss": 911,
+          "ttftHitMedian": 773,
+          "hits": 5,
+          "of": 5
+        },
+        "4k": {
+          "prompt": 3907,
+          "firstCached": 0,
+          "ttftMiss": 923,
+          "ttftHitMedian": 807,
+          "hits": 5,
+          "of": 5
+        },
+        "16k": {
+          "prompt": 15618,
+          "firstCached": 0,
+          "ttftMiss": 1688,
+          "ttftHitMedian": 878,
+          "hits": 5,
+          "of": 5
+        },
+        "64k": {
+          "prompt": 64368,
+          "firstCached": 0,
+          "ttftMiss": 4660,
+          "ttftHitMedian": 1444,
+          "hits": 5,
+          "of": 5
+        }
+      },
+      "ttftBySize": {
+        "1k": {
+          "prompt": 793,
+          "missN": 5,
+          "missMedian": 940,
+          "missMin": 730,
+          "missMax": 1235,
+          "hitN": 5,
+          "hitMedian": 773,
+          "unexpectedHitsInCold": 0
+        },
+        "4k": {
+          "prompt": 3902,
+          "missN": 5,
+          "missMedian": 939,
+          "missMin": 770,
+          "missMax": 1067,
+          "hitN": 5,
+          "hitMedian": 807,
+          "unexpectedHitsInCold": 0
+        },
+        "16k": {
+          "prompt": 15613,
+          "missN": 5,
+          "missMedian": 1458,
+          "missMin": 1179,
+          "missMax": 2039,
+          "hitN": 5,
+          "hitMedian": 878,
+          "unexpectedHitsInCold": 0
+        },
+        "64k": {
+          "prompt": 64366,
+          "missN": 5,
+          "missMedian": 5015,
+          "missMin": 4653,
+          "missMax": 5855,
+          "hitN": 5,
+          "hitMedian": 1444,
+          "unexpectedHitsInCold": 0
+        }
+      }
+    },
+    "deepseek-v4.1-flash": {
+      "requests": 289,
+      "failed": 0,
+      "refusals": 0,
+      "refusalStatuses": [],
+      "servedModels": [
+        "deepseek-v4.1-flash"
+      ],
+      "tokens": {
+        "prompt": 2928355,
+        "cached": 1534016,
+        "completion": 13006
+      },
+      "stable": {
+        "n": 20,
+        "firstCached": 0,
+        "laterHitRate": 0.9396534712081146,
+        "laterHits": 18,
+        "laterMisses": 1,
+        "laterN": 19,
+        "medianPrompt": 7998,
+        "ttftMiss": 1072,
+        "ttftHit": 658.5,
+        "inputCostPaid": 0.006011688000000002,
+        "inputCostWithoutCache": 0.048009,
+        "inputPerThousandLater": 0.18996252631578947,
+        "inputPerThousandWithoutCache": 2.4003473684210532
+      },
+      "timestamp-first": {
+        "n": 20,
+        "firstCached": 0,
+        "laterHitRate": 0,
+        "laterHits": 0,
+        "laterMisses": 19,
+        "laterN": 19,
+        "medianPrompt": 8018,
+        "ttftMiss": 793.5,
+        "ttftHit": null,
+        "inputCostPaid": 0.04812899999999999,
+        "inputCostWithoutCache": 0.04812899999999999,
+        "inputPerThousandLater": 2.406347368421052,
+        "inputPerThousandWithoutCache": 2.406347368421052
+      },
+      "timestamp-last": {
+        "n": 20,
+        "firstCached": 0,
+        "laterHitRate": 0.9373105339824936,
+        "laterHits": 18,
+        "laterMisses": 1,
+        "laterN": 19,
+        "medianPrompt": 8018,
+        "ttftMiss": 806,
+        "ttftHit": 585.5,
+        "inputCostPaid": 0.006131688000000001,
+        "inputCostWithoutCache": 0.04812899999999999,
+        "inputPerThousandLater": 0.1959625263157895,
+        "inputPerThousandWithoutCache": 2.406347368421052
+      },
+      "user-in-middle": {
+        "n": 20,
+        "firstCached": 0,
+        "laterHitRate": 0.26500686835757525,
+        "laterHits": 0,
+        "laterMisses": 1,
+        "laterN": 19,
+        "medianPrompt": 8005,
+        "ttftMiss": 760.5,
+        "ttftHit": null,
+        "inputCostPaid": 0.03619422,
+        "inputCostWithoutCache": 0.04804829999999999,
+        "inputPerThousandLater": 1.7784221052631581,
+        "inputPerThousandWithoutCache": 2.402321052631579
+      },
+      "burst": {
+        "cold-1": {
+          "n": 10,
+          "withHit": 8,
+          "medianTtft": 1134.5
+        },
+        "cold-2": {
+          "n": 10,
+          "withHit": 10,
+          "medianTtft": 1011.5
+        },
+        "warm-0": {
+          "n": 1,
+          "withHit": 0,
+          "medianTtft": 1029
+        },
+        "warm-1": {
+          "n": 10,
+          "withHit": 9,
+          "medianTtft": 804.5
+        }
+      },
+      "idle": {
+        "primes": [
+          {
+            "label": "prime",
+            "gapMin": 1,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 5,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 15,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 30,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 60,
+            "hit": false
+          }
+        ],
+        "after": {
+          "1m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 8011,
+            "ttft": 642
+          },
+          "5m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 8010,
+            "ttft": 2785
+          },
+          "15m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 8011,
+            "ttft": 728
+          },
+          "30m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 8010,
+            "ttft": 1098
+          },
+          "60m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 8010,
+            "ttft": 1508
+          }
+        }
+      },
+      "idle-twice": {
+        "primes": [
+          {
+            "label": "prime",
+            "gapMin": 1,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 1,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 5,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 5,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 15,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 15,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 30,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 30,
+            "hit": false
+          }
+        ],
+        "after": {
+          "1m": {
+            "hit": true,
+            "cached": 7936,
+            "prompt": 8009,
+            "ttft": 1209
+          },
+          "5m": {
+            "hit": true,
+            "cached": 7936,
+            "prompt": 8011,
+            "ttft": 1225
+          },
+          "15m": {
+            "hit": true,
+            "cached": 7936,
+            "prompt": 8012,
+            "ttft": 2523
+          },
+          "30m": {
+            "hit": true,
+            "cached": 7936,
+            "prompt": 8010,
+            "ttft": 818
+          }
+        }
+      },
+      "idle-short": {
+        "5s": {
+          "hits": 2,
+          "of": 2,
+          "secondPrimeHits": 0
+        },
+        "15s": {
+          "hits": 2,
+          "of": 2,
+          "secondPrimeHits": 0
+        },
+        "30s": {
+          "hits": 2,
+          "of": 2,
+          "secondPrimeHits": 0
+        },
+        "45s": {
+          "hits": 2,
+          "of": 2,
+          "secondPrimeHits": 0
+        }
+      },
+      "cache-key": {
+        "a-1": {
+          "hits": 0,
+          "misses": 4,
+          "of": 4
+        },
+        "a-2": {
+          "hits": 3,
+          "misses": 1,
+          "of": 4
+        },
+        "b-1": {
+          "hits": 0,
+          "misses": 4,
+          "of": 4
+        },
+        "a-3": {
+          "hits": 4,
+          "misses": 0,
+          "of": 4
+        },
+        "none": {
+          "hits": 0,
+          "misses": 4,
+          "of": 4
+        },
+        "b-2": {
+          "hits": 3,
+          "misses": 1,
+          "of": 4
+        }
+      },
+      "key-ab": {
+        "keyed": {
+          "secondRequestHits": 0,
+          "rounds": 4,
+          "laterHits": 24,
+          "laterN": 28,
+          "laterHitRate": 0.8504755525787006
+        },
+        "plain": {
+          "secondRequestHits": 0,
+          "rounds": 4,
+          "laterHits": 24,
+          "laterN": 28,
+          "laterHitRate": 0.8503692326924965
+        }
+      },
+      "sweep": {
+        "1k": {
+          "prompt": 845,
+          "firstCached": 0,
+          "ttftMiss": 837,
+          "ttftHitMedian": 524,
+          "hits": 4,
+          "of": 5
+        },
+        "4k": {
+          "prompt": 4076,
+          "firstCached": 0,
+          "ttftMiss": 904,
+          "ttftHitMedian": 546,
+          "hits": 5,
+          "of": 5
+        },
+        "16k": {
+          "prompt": 16232,
+          "firstCached": 0,
+          "ttftMiss": 1021,
+          "ttftHitMedian": 626,
+          "hits": 5,
+          "of": 5
+        },
+        "64k": {
+          "prompt": 66777,
+          "firstCached": 0,
+          "ttftMiss": 3588,
+          "ttftHitMedian": 911,
+          "hits": 5,
+          "of": 5
+        }
+      },
+      "ttftBySize": {
+        "1k": {
+          "prompt": 838,
+          "missN": 5,
+          "missMedian": 707,
+          "missMin": 655,
+          "missMax": 895,
+          "hitN": 4,
+          "hitMedian": 524,
+          "unexpectedHitsInCold": 0
+        },
+        "4k": {
+          "prompt": 4071,
+          "missN": 5,
+          "missMedian": 642,
+          "missMin": 605,
+          "missMax": 1225,
+          "hitN": 5,
+          "hitMedian": 546,
+          "unexpectedHitsInCold": 0
+        },
+        "16k": {
+          "prompt": 16225,
+          "missN": 5,
+          "missMedian": 1032,
+          "missMin": 883,
+          "missMax": 1196,
+          "hitN": 5,
+          "hitMedian": 626,
+          "unexpectedHitsInCold": 0
+        },
+        "64k": {
+          "prompt": 66772,
+          "missN": 5,
+          "missMedian": 3068,
+          "missMin": 2795,
+          "missMax": 3845,
+          "hitN": 5,
+          "hitMedian": 911,
+          "unexpectedHitsInCold": 0
+        }
+      }
+    },
+    "openai-gpt-oss-120b": {
+      "requests": 289,
+      "failed": 0,
+      "refusals": 0,
+      "refusalStatuses": [],
+      "servedModels": [
+        "openai-gpt-oss-120b"
+      ],
+      "tokens": {
+        "prompt": 2835117,
+        "cached": 732096,
+        "completion": 13816
+      },
+      "stable": {
+        "n": 20,
+        "firstCached": 64,
+        "laterHitRate": 0.6790900388994114,
+        "laterHits": 13,
+        "laterMisses": 6,
+        "laterN": 19,
+        "medianPrompt": 7750,
+        "ttftMiss": 814,
+        "ttftHit": 578,
+        "inputCostPaid": 0.00749852,
+        "inputCostWithoutCache": 0.015506200000000005,
+        "inputPerThousandLater": 0.3540915789473684,
+        "inputPerThousandWithoutCache": 0.7752789473684212
+      },
+      "timestamp-first": {
+        "n": 20,
+        "firstCached": 64,
+        "laterHitRate": 0.008233852237562888,
+        "laterHits": 0,
+        "laterMisses": 19,
+        "laterN": 19,
+        "medianPrompt": 7770,
+        "ttftMiss": 861,
+        "ttftHit": null,
+        "inputCostPaid": 0.0154438,
+        "inputCostWithoutCache": 0.015546200000000001,
+        "inputPerThousandLater": 0.7721589473684212,
+        "inputPerThousandWithoutCache": 0.7772789473684211
+      },
+      "timestamp-last": {
+        "n": 20,
+        "firstCached": 64,
+        "laterHitRate": 0.6321918457434564,
+        "laterHits": 12,
+        "laterMisses": 7,
+        "laterN": 19,
+        "medianPrompt": 7771,
+        "ttftMiss": 831.5,
+        "ttftHit": 573,
+        "inputCostPaid": 0.008073000000000002,
+        "inputCostWithoutCache": 0.015548200000000002,
+        "inputPerThousandLater": 0.38421684210526325,
+        "inputPerThousandWithoutCache": 0.7773789473684213
+      },
+      "user-in-middle": {
+        "n": 20,
+        "firstCached": 64,
+        "laterHitRate": 0.19453811446212302,
+        "laterHits": 0,
+        "laterMisses": 6,
+        "laterN": 19,
+        "medianPrompt": 7754.5,
+        "ttftMiss": 848,
+        "ttftHit": null,
+        "inputCostPaid": 0.01321592,
+        "inputCostWithoutCache": 0.0155148,
+        "inputPerThousandLater": 0.6549863157894737,
+        "inputPerThousandWithoutCache": 0.7757105263157896
+      },
+      "burst": {
+        "cold-1": {
+          "n": 10,
+          "withHit": 7,
+          "medianTtft": 923
+        },
+        "cold-2": {
+          "n": 10,
+          "withHit": 10,
+          "medianTtft": 686.5
+        },
+        "warm-0": {
+          "n": 1,
+          "withHit": 0,
+          "medianTtft": 884
+        },
+        "warm-1": {
+          "n": 10,
+          "withHit": 9,
+          "medianTtft": 768
+        }
+      },
+      "idle": {
+        "primes": [
+          {
+            "label": "prime",
+            "gapMin": 1,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 5,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 15,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 30,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 60,
+            "hit": false
+          }
+        ],
+        "after": {
+          "1m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 7761,
+            "ttft": 728
+          },
+          "5m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 7763,
+            "ttft": 783
+          },
+          "15m": {
+            "hit": false,
+            "cached": 64,
+            "prompt": 7761,
+            "ttft": 950
+          },
+          "30m": {
+            "hit": false,
+            "cached": 64,
+            "prompt": 7762,
+            "ttft": 1023
+          },
+          "60m": {
+            "hit": false,
+            "cached": 64,
+            "prompt": 7765,
+            "ttft": 1139
+          }
+        }
+      },
+      "idle-twice": {
+        "primes": [
+          {
+            "label": "prime",
+            "gapMin": 1,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 1,
+            "hit": true
+          },
+          {
+            "label": "prime",
+            "gapMin": 5,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 5,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 15,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 15,
+            "hit": false
+          },
+          {
+            "label": "prime",
+            "gapMin": 30,
+            "hit": false
+          },
+          {
+            "label": "prime-2",
+            "gapMin": 30,
+            "hit": true
+          }
+        ],
+        "after": {
+          "1m": {
+            "hit": false,
+            "cached": 64,
+            "prompt": 7761,
+            "ttft": 918
+          },
+          "5m": {
+            "hit": false,
+            "cached": 64,
+            "prompt": 7762,
+            "ttft": 942
+          },
+          "15m": {
+            "hit": false,
+            "cached": 64,
+            "prompt": 7761,
+            "ttft": 1496
+          },
+          "30m": {
+            "hit": false,
+            "cached": 0,
+            "prompt": 7762,
+            "ttft": 1046
+          }
+        }
+      },
+      "idle-short": {
+        "5s": {
+          "hits": 1,
+          "of": 2,
+          "secondPrimeHits": 1
+        },
+        "15s": {
+          "hits": 1,
+          "of": 2,
+          "secondPrimeHits": 2
+        },
+        "30s": {
+          "hits": 1,
+          "of": 2,
+          "secondPrimeHits": 0
+        },
+        "45s": {
+          "hits": 1,
+          "of": 2,
+          "secondPrimeHits": 0
+        }
+      },
+      "cache-key": {
+        "a-1": {
+          "hits": 0,
+          "misses": 4,
+          "of": 4
+        },
+        "a-2": {
+          "hits": 2,
+          "misses": 2,
+          "of": 4
+        },
+        "b-1": {
+          "hits": 0,
+          "misses": 4,
+          "of": 4
+        },
+        "a-3": {
+          "hits": 1,
+          "misses": 3,
+          "of": 4
+        },
+        "none": {
+          "hits": 0,
+          "misses": 4,
+          "of": 4
+        },
+        "b-2": {
+          "hits": 1,
+          "misses": 3,
+          "of": 4
+        }
+      },
+      "key-ab": {
+        "keyed": {
+          "secondRequestHits": 2,
+          "rounds": 4,
+          "laterHits": 10,
+          "laterN": 28,
+          "laterHitRate": 0.35393172988741467
+        },
+        "plain": {
+          "secondRequestHits": 0,
+          "rounds": 4,
+          "laterHits": 10,
+          "laterN": 28,
+          "laterHitRate": 0.35922911731905366
+        }
+      },
+      "sweep": {
+        "1k": {
+          "prompt": 850,
+          "firstCached": 64,
+          "ttftMiss": 839,
+          "ttftHitMedian": 564,
+          "hits": 3,
+          "of": 5
+        },
+        "4k": {
+          "prompt": 3963,
+          "firstCached": 64,
+          "ttftMiss": 849,
+          "ttftHitMedian": 519,
+          "hits": 4,
+          "of": 5
+        },
+        "16k": {
+          "prompt": 15684,
+          "firstCached": 64,
+          "ttftMiss": 1330,
+          "ttftHitMedian": 609,
+          "hits": 2,
+          "of": 5
+        },
+        "64k": {
+          "prompt": 64492,
+          "firstCached": 64,
+          "ttftMiss": 4597,
+          "ttftHitMedian": null,
+          "hits": 0,
+          "of": 5
+        }
+      },
+      "ttftBySize": {
+        "1k": {
+          "prompt": 843,
+          "missN": 5,
+          "missMedian": 599,
+          "missMin": 466,
+          "missMax": 1131,
+          "hitN": 3,
+          "hitMedian": 564,
+          "unexpectedHitsInCold": 0
+        },
+        "4k": {
+          "prompt": 3959,
+          "missN": 5,
+          "missMedian": 848,
+          "missMin": 791,
+          "missMax": 993,
+          "hitN": 4,
+          "hitMedian": 519,
+          "unexpectedHitsInCold": 0
+        },
+        "16k": {
+          "prompt": 15682,
+          "missN": 5,
+          "missMedian": 1169,
+          "missMin": 1036,
+          "missMax": 1308,
+          "hitN": 2,
+          "hitMedian": 609,
+          "unexpectedHitsInCold": 0
+        },
+        "64k": {
+          "prompt": 64486,
+          "missN": 5,
+          "missMedian": 4770,
+          "missMin": 4682,
+          "missMax": 4860,
+          "hitN": 0,
+          "hitMedian": null,
+          "unexpectedHitsInCold": 0
+        }
+      }
+    }
+  }
+}

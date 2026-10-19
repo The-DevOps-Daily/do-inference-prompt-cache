@@ -1,0 +1,7 @@
+{
+  "_source": "https://docs.digitalocean.com/products/inference/details/pricing/ (last verified 15 Oct 2026), USD per 1M tokens",
+  "_note": "gpt-oss-120b has no cached-input price on the pricing page; the invoice bills its cache reads at $0.02 per 1M (results/billing-*.json), so that rate is used and marked.",
+  "llama-4-maverick": { "name": "Llama 4 Maverick", "input": 0.25, "cachedInput": 0.05, "output": 0.87 },
+  "deepseek-v4.1-flash": { "name": "DeepSeek V4.1 Flash", "input": 0.3, "cachedInput": 0.006, "output": 1.2 },
+  "openai-gpt-oss-120b": { "name": "OpenAI GPT-Oss-120B", "input": 0.1, "cachedInput": 0.02, "cachedInputSource": "invoice", "output": 0.7 }
+}

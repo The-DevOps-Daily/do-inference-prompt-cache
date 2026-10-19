@@ -1,0 +1,82 @@
+{
+  "takenAt": "2026-10-19T13:54:56.288Z",
+  "lines": [
+    {
+      "model": "OpenAI GPT-Oss-120B",
+      "kind": "Output",
+      "tokens": 3002,
+      "perThousand": 0.0007,
+      "amount": 0.01
+    },
+    {
+      "model": "OpenAI GPT-Oss-120B",
+      "kind": "Input",
+      "tokens": 7078,
+      "perThousand": 0.0001,
+      "amount": 0.01
+    },
+    {
+      "model": "Llama 4 Maverick",
+      "kind": "Output",
+      "tokens": 12642,
+      "perThousand": 0.00087,
+      "amount": 0.01
+    },
+    {
+      "model": "Llama 4 Maverick",
+      "kind": "Input",
+      "tokens": 63676,
+      "perThousand": 0.00025,
+      "amount": 0.02
+    },
+    {
+      "model": "Llama 4 Maverick",
+      "kind": "Cache Read Input",
+      "tokens": 350976,
+      "perThousand": 5e-05,
+      "amount": 0.02
+    },
+    {
+      "model": "DeepSeek V4.1 Flash",
+      "kind": "Output",
+      "tokens": 26917,
+      "perThousand": 0.0012,
+      "amount": 0.03
+    },
+    {
+      "model": "DeepSeek V4.1 Flash",
+      "kind": "Input",
+      "tokens": 31164,
+      "perThousand": 0.0003,
+      "amount": 0.01
+    },
+    {
+      "model": "DeepSeek V4.1 Flash",
+      "kind": "Cache Read Input",
+      "tokens": 40896,
+      "perThousand": 6e-06,
+      "amount": 0.01
+    },
+    {
+      "model": "OpenAI GPT-Oss-120B",
+      "kind": "Output",
+      "tokens": 103982,
+      "perThousand": 0.0007,
+      "amount": 0.07
+    },
+    {
+      "model": "OpenAI GPT-Oss-120B",
+      "kind": "Input",
+      "tokens": 62620,
+      "perThousand": 0.0001,
+      "amount": 0.01
+    },
+    {
+      "model": "OpenAI GPT-Oss-120B",
+      "kind": "Cache Read Input",
+      "tokens": 388416,
+      "perThousand": 2e-05,
+      "amount": 0.01
+    }
+  ]
+}

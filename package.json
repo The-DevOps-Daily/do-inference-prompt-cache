@@ -1,0 +1,13 @@
+{
+  "name": "do-inference-prompt-cache",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Measure DigitalOcean Serverless Inference's automatic prompt caching: hit rates, time to first token, the bill, and the prompt layouts that turn it off.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "prompts": "node 00-build-prompts.mjs",
+    "score": "node 03-score.mjs"
+  }
+}
