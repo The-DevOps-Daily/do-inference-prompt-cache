@@ -1,0 +1,16 @@
+invoice snapshots: 2026-10-19T12:47:08.632Z -> 2026-10-20T08:13:08.248Z
+
+Llama 4 Maverick
+  Input             api   1146725  invoice change   1146725  difference +0 (0.00%)
+  Cache Read Input  api   1825920  invoice change   1825920  difference +0 (0.00%)
+  Output            api      3430  invoice change      3430  difference +0 (0.00%)
+
+DeepSeek V4.1 Flash
+  Input             api   1394339  invoice change   1394339  difference +0 (0.00%)
+  Cache Read Input  api   1534016  invoice change   1534016  difference +0 (0.00%)
+  Output            api     13006  invoice change     13006  difference +0 (0.00%)
+
+OpenAI GPT-Oss-120B
+  Input             api   2103021  invoice change   2103021  difference +0 (0.00%)
+  Cache Read Input  api    732096  invoice change    732096  difference +0 (0.00%)
+  Output            api     13816  invoice change     13816  difference +0 (0.00%)
